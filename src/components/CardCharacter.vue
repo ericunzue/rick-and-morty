@@ -42,6 +42,7 @@ export default {
   cursor:pointer;
   transition: transform 200ms ease-in-out;
   height: 100%;
+  
   &:hover{
     transform: scale(1.05);
     h3{ 
@@ -55,7 +56,8 @@ export default {
     margin-bottom: 0.5rem;
   }
   &__info{
-    padding: 1.5rem;
+    padding: 1rem;
+    font-size:1rem;
     .status{
       display:flex;
       align-items: center;
@@ -63,10 +65,11 @@ export default {
       span{
         color: var(--text-gray);
         &:first-child{
-          width: 10px;
-          height:10px;
+          width: 5px;
+          height:5px;
           border-radius: 50%;
           margin-right: 0.5rem;
+          padding: 0.3rem;
         }
       }
       .alive{

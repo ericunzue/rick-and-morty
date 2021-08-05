@@ -48,7 +48,7 @@ h1{
   text-align: center;
 }
 .container{
-  width: 980px;
+  width: 70%;
   max-width: 90%;
   margin: 5rem auto
 }

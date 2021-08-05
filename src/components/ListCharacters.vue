@@ -37,8 +37,8 @@ export default {
 <style>
 .characters{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap:3rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap:1.5rem;
   margin: 3rem 0;
 }
 </style>
